@@ -1,7 +1,7 @@
 module Algorithms
   module Sorting
     class Bubble
-      def self.perform(array)
+      def perform(array)
         raise DataError if array.nil? || array.empty?
 
         loop do
